@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog - Editar Blog</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="blogs.html" class="logo">
+                <h1>MyBlog</h1>
+            </a>
+
+            <ul>
+                <li>alexroel</li>
+                <li><a href="../index.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="content form-blog">
+            <div class="header-blog">
+                <h2>Editar Blog</h2>
+                <a href="blogs.html">Cancelar</a>
+            </div>
+            <form method="post" action="">
+                <label for="title">Título</label>
+                <input name="title" id="title" value="" required>
+                <label for="info">Información</label>
+                <textarea name="info" id="info" rows="3"></textarea>
+                <label for="content">Contenido</label>
+                <textarea name="content" id="content" rows="15"></textarea>
+                <input type="submit" value="Guardar">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
