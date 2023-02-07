@@ -45,11 +45,19 @@ nav ul{
     color: #fff;
     display: flex;
     list-style: none;
+    align-items: center;
     padding: 5px;
 }
 
 nav ul li{
     padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav .user{
+    font-style: italic;
+    color: #c0c0c0;
 }
 
 nav ul li a{
